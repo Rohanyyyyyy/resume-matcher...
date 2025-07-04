@@ -1,3 +1,9 @@
+import nltk
+import os
+
+nltk.data.path.append(os.path.join(os.path.dirname(_file_), "nltk_data"))
+
+
 
 import streamlit as st
 import fitz  # PyMuPDF
